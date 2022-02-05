@@ -5,15 +5,19 @@
         "name": "Dennis Kirsch, Duy Chung",
         "email": "mail@dennis-kirsch.de; chungkhanhduy1985@gmail.com"
     },
-    "publisher": "Duy Chung",
+    "publisher": "DuyChung",
     "description": "Rell Language",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.56.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/duymap/rell-vscode.git"
+    },
     "contributes": {
         "languages": [{
             "id": "rell",
@@ -34,6 +38,10 @@
             {
                 "language": "rell",                
                 "path": "./snippets/simple-type.json"
+            },
+            {
+                "language": "rell",                
+                "path": "./snippets/statements.json"
             }
         ]
     }

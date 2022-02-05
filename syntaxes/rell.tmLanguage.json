@@ -32,7 +32,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.rell",
-                    "match": "\\b(return|if|else|when|for|in|while|break|continue|\\@?module|abstract|\\@test|\\@mount|function|import|create|delete|update|operation|query|object|entity|struct|enum)\\b"
+                    "match": "\\b(return|if|else|when|for|in|while|break|continue|\\@?module|abstract|\\@?log|\\@?test|\\@?mount|function|import|create|delete|update|operation|query|object|entity|struct|enum)\\b"
                 },
                 {
                     "name": "storage.type.rell",

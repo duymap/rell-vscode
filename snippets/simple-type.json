@@ -13,12 +13,26 @@
       ],
       "description": "integer type"
     },
-    "integer.MIN_VALUE": {
+    "integer MIN_VALUE": {
       "prefix": "integer.MIN_VALUE",
       "body": [
         "integer.MIN_VALUE"
       ],
       "description": "integer.MIN_VALUE = minimum value (-2^63)"
+    },
+    "integer MAX_VALUE": {
+      "prefix": "integer.MAX_VALUE",
+      "body": [
+        "integer.MAX_VALUE"
+      ],
+      "description": "integer.MAX_VALUE = maximum value (2^63-1)"
+    },
+    "convertDecimalToInteger": {
+      "prefix": "integer(decimal)",
+      "body": [
+        "integer(decimal)"
+      ],
+      "description": "integer(decimal): decimal - - converts a decimal to an integer, rounding towards 0 (5.99 becomes 5, -5.99 becomes -5), throws an exception if the resulting value is out of range"
     },
     "decimal": {
       "prefix": "decimal",
