@@ -1,3 +1,5 @@
-# Rell Syntax Highlighting
+# Rell Languge VS extension
 
-This extension offers simple syntax highlighting for the Chromia blockchain language rell.
+This extension offers:
+- Simple syntax highlighting for the Chromia blockchain language rell.
+- Code snippets
