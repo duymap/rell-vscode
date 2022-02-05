@@ -1,0 +1,58 @@
+{
+    "boolean": {
+      "prefix": "boolean",
+      "body": [
+        "boolean"
+      ],
+      "description": "boolean type"    
+    },
+    "integer": {
+      "prefix": "integer",
+      "body": [
+        "integer"
+      ],
+      "description": "integer type"
+    },
+    "integer.MIN_VALUE": {
+      "prefix": "integer.MIN_VALUE",
+      "body": [
+        "integer.MIN_VALUE"
+      ],
+      "description": "integer.MIN_VALUE = minimum value (-2^63)"
+    },
+    "decimal": {
+      "prefix": "decimal",
+      "body": [
+        "decimal"
+      ],
+      "description": "decimal type"
+    },
+    "text": {
+      "prefix": "text",
+      "body": [
+        "text"
+      ],
+      "description": "text type"
+    },
+    "byte_array": {
+      "prefix": "byte_array",
+      "body": [
+        "byte_array"
+      ],
+      "description": "byte_array type"
+    },
+    "rowid": {
+      "prefix": "rowid",
+      "body": [
+        "rowid"
+      ],
+      "description": "Primary key of a database record, 64-bit integer, supports only comparison operations"
+    },
+    "unit": {
+      "prefix": "unit",
+      "body": [
+        "unit"
+      ],
+      "description": "No value; cannot be used explicitly. Equivalent to unit type in Kotlin."
+    }
+  }
